@@ -1,0 +1,92 @@
+ *{
+            padding: 0;
+            margin: 0;
+        }
+		body{
+			  background-image: url(BG.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+			padding:0;
+			
+			height: 140vh;
+		}
+ 	
+
+        h1 {
+            color: #ffdb12;
+            text-align: center;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 50px;
+            letter-spacing: 10px;
+        }
+
+        h1 {
+            font-size: 50px;
+            color: #ffdb12;
+            text-align: center;
+            -webkit-animation: glow 1s ease-in-out infinite alternate;
+            -moz-animation: glow 1s ease-in-out infinite alternate;
+            animation: glow 1s ease-in-out infinite alternate;
+        }
+
+        @-webkit-keyframes glow {
+            from {
+                text-shadow: 0 0 10px #b90707, 0 0 10px #b90707, 0 0 10px #b90707, 0 0 10px #b90707, 0 0 10px #b90707, 0 0 40px #b90707, 0 0 40px #b90707;
+            }
+
+            to {
+                text-shadow: 0 0 20px yellow, 0 0 10px yellow, 0 0 10px yellow, 0 0 10px yellow, 0 0 10px yellow, 0 0 10px yellow, 0 0 10px yellow;
+            }
+        }
+
+        #header {
+            padding: 1em;
+            background-color: #b90707;
+        }
+
+        #links {
+            background-color: #ffdb12;
+            margin: 0;
+            padding: 1em;
+            text-align: center;
+        }
+		
+		
+
+            #links a {
+                color: #000;
+                text-decoration: none;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                margin-left: 50px;
+                margin-right: 50px;
+            }
+	
+
+            #links :hover {
+                color: red;
+                transition: all 0.1s ease-in;
+            }
+             #box {
+            background-color: #ffeead;
+            height: 70%;
+            width: 75%;
+            margin: 100px auto;
+         }
+         span {
+             font-size:4em;
+             color:#b90707;
+         }
+         h3 {
+            
+             text-align:left;
+             
+             font-size: 40px;
+         }
+         p {
+             font-size: 40px;
+             line-height: 100px;
+             padding-left: 100px;
+      
+         }
+		 
+		 
